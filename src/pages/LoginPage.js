@@ -1,0 +1,13 @@
+import React from "react";
+
+const LoginPage = () => {
+    return (
+        <div>
+            <label htmlFor="">Podaj Login<input type="text"></input></label>
+            <label htmlFor="">Podaj hasło<input type="password"></input></label>
+            <button>Zaloguj</button>
+        </div>
+    )
+}
+
+export default LoginPage
