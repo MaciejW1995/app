@@ -4,21 +4,21 @@ import Article from "../components/Article";
 const articles = [
     {
         id: 1,
-        title: "What is love ?",
-        author: "Haddaway",
-        text: "Baby dont hurt me Dont hurt me No more"  
+        title: "Czym jest makieta ?",
+        author: "Wikipedia",
+        text: "Modele przedstawiające wiernie lub w przybliżeniu obiekty (fabryki, mosty, lotniska itp.), sprzęt bojowy (czołgi, samoloty itp.) oraz ludzi, stosowane w wojsku do pozorowania działań, odwrócenia uwagi od rzeczywistych obiektów, ściągnięcia ognia przeciwnika, wprowadzenia w błąd co do wielkości sił, ilości i jakości uzbrojenia lub szkolenia własnych oddziałów."  
     },
     {
         id: 2,
-        title: "Motivation",
+        title: "Skala makiety",
         author: "Some Mr",
-        text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."  
+        text: "Obowiązkowy element każdej mapy i planu, który informuje nas jak bardzo obraz przedstawiony na mapie został pomniejszony w stosunku do rzeczywistości."  
     },
     {
         id: 3,
-        title: "Crypto",
-        author: "Charles Ponzi",
-        text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."  
+        title: "Z czego budujemy makiety ?",
+        author: "Paweł Jakiś",
+        text: "Podstawowym materiałem do budowy makiet jest płyta piankowa różnej grubości, wykończona papierem kredowym..."  
     },
 ]
 const HomePage = () => {

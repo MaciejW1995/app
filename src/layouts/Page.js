@@ -11,7 +11,8 @@ import LoginPage from '../pages/LoginPage'
 const Page = () => {
     return(
         <Routes>
-        <Route path="/" exact={true} element={<HomePage/>}/>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/app" element={<HomePage/>}/>
         <Route path="/products" element={<ProductListPage/>}/>
         <Route path="/product/:id" element={<ProductPage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
