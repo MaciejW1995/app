@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../styles/ProductListPage.css';
 
-const products = ["cars", "bike", "motorcycle"]
+const products = ["Tokyo", "London", "New York"]
 const ProductListPage = () => {
 
     const list = products.map(product => (
